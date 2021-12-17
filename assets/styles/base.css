@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #353b48;
+  height: 100%;
+  display: flex;
+
+}
+
+.restaurant-image {
+  height: 4rem;
+  width: 4rem;
+}
+.tier-list{
+  display:flex;
+  flex-direction: column;
+}
+
+.tier{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} 
+
+.tier h1{
+  color: white;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
+.tier-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height:100px;
+  width: 600px;
+  
+}
+/**
+  * @task Make it look like the example :D
+  */
